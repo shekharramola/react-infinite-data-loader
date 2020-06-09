@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shekharramola/react-infinite-data-loader/static/css/main.24fee33f.chunk.css",
+    "main.js": "/shekharramola/react-infinite-data-loader/static/js/main.5818be1d.chunk.js",
+    "main.js.map": "/shekharramola/react-infinite-data-loader/static/js/main.5818be1d.chunk.js.map",
+    "runtime-main.js": "/shekharramola/react-infinite-data-loader/static/js/runtime-main.57820735.js",
+    "runtime-main.js.map": "/shekharramola/react-infinite-data-loader/static/js/runtime-main.57820735.js.map",
+    "static/js/2.95ef4f0f.chunk.js": "/shekharramola/react-infinite-data-loader/static/js/2.95ef4f0f.chunk.js",
+    "static/js/2.95ef4f0f.chunk.js.map": "/shekharramola/react-infinite-data-loader/static/js/2.95ef4f0f.chunk.js.map",
+    "index.html": "/shekharramola/react-infinite-data-loader/index.html",
+    "precache-manifest.d60ab4fd1ded46ccc13c592cec2dcacb.js": "/shekharramola/react-infinite-data-loader/precache-manifest.d60ab4fd1ded46ccc13c592cec2dcacb.js",
+    "service-worker.js": "/shekharramola/react-infinite-data-loader/service-worker.js",
+    "static/css/main.24fee33f.chunk.css.map": "/shekharramola/react-infinite-data-loader/static/css/main.24fee33f.chunk.css.map",
+    "static/js/2.95ef4f0f.chunk.js.LICENSE.txt": "/shekharramola/react-infinite-data-loader/static/js/2.95ef4f0f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57820735.js",
+    "static/js/2.95ef4f0f.chunk.js",
+    "static/css/main.24fee33f.chunk.css",
+    "static/js/main.5818be1d.chunk.js"
+  ]
+}
