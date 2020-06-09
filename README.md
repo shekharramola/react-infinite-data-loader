@@ -1,6 +1,15 @@
 # react-infinite-data-loader
 
 > hooks to load infinite amount of data in server side pagination
+>It supports both button to load more data or just using scroll
+>While passing data to this hook, please provide array name is you think that it is going to be a key , value pair then I would expect the arrayName property where you will give the value.
+>if arrayName is not provided then I would assume that response is direct array of objects.
+
+
+## Demo1
+[![NPM](./pagination1.png)]()
+## Demo2
+[![NPM](./pagination2.png)]()
 
 [![NPM](https://img.shields.io/npm/v/react-infinite-data-loader.svg)](https://www.npmjs.com/package/react-infinite-data-loader) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -13,14 +22,26 @@ npm install --save react-infinite-data-loader
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import { useMyHook } from 'react-infinite-data-loader'
+import  useInfiniteDataLoader  from 'react-infinite-data-loader'
 
 const Example = () => {
-  const example = useMyHook()
+  const {
+    isLoading,
+    isViewMoreLoading,
+    list,
+    incrementPage,
+    isLast,
+    useButton,
+  } = useInfiniteDataLoader({ url: URL, useButton: false, arrayName: null });
+  // providing url and useButton is compulsory here while arrayName is optional
+  const showMore = () => {
+    incrementPage();
+  };
+
   return (
-    <div>{example}</div>
+    // your logic here to display data where list being an array and others are self explanatory
   )
 }
 ```
