@@ -14,7 +14,7 @@ const App = () => {
     incrementPage,
     isLast,
     useButton,
-  } = useInfiniteDataLoader({ url: URL, useButton: false, arrayName: null });
+  } = useInfiniteDataLoader({ url: URL, useButton: true, arrayName: null });
   const showMore = () => {
     incrementPage();
   };

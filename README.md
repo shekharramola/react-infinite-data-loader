@@ -6,10 +6,12 @@
 >if arrayName is not provided then I would assume that response is direct array of objects.
 
 
-## Demo1
-[![NPM](./pagination1.png)]()
-## Demo2
-[![NPM](./pagination2.png)]()
+## Demo 1
+[![Infinite scroll](./pagination1.png)]
+## Demo 2
+[![Last page](./pagination2.png)]
+## Demo 2
+[![With button](./pagination3.png)]
 
 [![NPM](https://img.shields.io/npm/v/react-infinite-data-loader.svg)](https://www.npmjs.com/package/react-infinite-data-loader) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
